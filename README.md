@@ -22,6 +22,8 @@ Pandas:
 
 Install : http://pandas.pydata.org/pandas-docs/stable/install.html
 
+Note:Install all dependencies for python3
+
 Download sample test data:
 
 
