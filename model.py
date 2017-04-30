@@ -76,9 +76,9 @@ merged_model.add(Dense(1))
 merged_model.add(Activation('sigmoid'))
 
 merged_model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
-checkpoint = ModelCheckpoint('weights.h5', monitor='val_acc', save_best_only=True, verbose=2)
+#checkpoint = ModelCheckpoint('weights.h5', monitor='val_acc', save_best_only=True, verbose=2)
 merged_model.fit([x1, x2], y=y, batch_size=384,epochs=1,
-                 verbose=1, validation_split=0.1, shuffle=True, callbacks=[checkpoint])
+                 verbose=1, validation_split=0.1, shuffle=True)
 
 
 scores = merged_model.evaluate([x1, x2],y)
