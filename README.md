@@ -1,6 +1,6 @@
 # Quora-deep-learning
 
-Dependencies:
+# Dependencies:
 
 Tensorflow:
 
@@ -24,11 +24,11 @@ Install : http://pandas.pydata.org/pandas-docs/stable/install.html
 
 Note:Install all dependencies for python3
 
-Download sample test data:
+#Download sample test data:
 
 
 
-Instructions to run:
+#Instructions to run:
 
 Install all dependencies
 
