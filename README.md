@@ -22,8 +22,20 @@ Pandas:
 
 Install : http://pandas.pydata.org/pandas-docs/stable/install.html
 
-To run:
+Download sample test data:
 
-Place 'glove.840B.300d.txt' and 'train.csv' in data folder
 
-Run with python3 model.py
+
+Instructions to run:
+
+Install all dependencies
+
+Place the test file in the data path:
+
+Download the sample test data file 'test.csv' and place it in the data path.
+
+OR
+
+If you are using your input file for testing, place it in the data path
+
+Run with 'python3 predict.py'
