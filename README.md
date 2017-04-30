@@ -4,23 +4,23 @@ Dependencies:
 
 Tensorflow:
 
-https://www.tensorflow.org/install/
+Install : https://www.tensorflow.org/install/
 
 Keras:
 
-https://keras.io/#installation
+Install : https://keras.io/#installation
 
 h5py:
 
-http://docs.h5py.org/en/latest/build.html
+Install : http://docs.h5py.org/en/latest/build.html
 
 Numpy:
 
-https://scipy.org/install.html
+Install : https://scipy.org/install.html
 
 Pandas:
 
-http://pandas.pydata.org/pandas-docs/stable/install.html
+Install : http://pandas.pydata.org/pandas-docs/stable/install.html
 
 To run:
 
