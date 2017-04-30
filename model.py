@@ -11,6 +11,7 @@ from keras.callbacks import ModelCheckpoint
 from keras import backend as K
 from keras.layers.advanced_activations import PReLU
 from keras.preprocessing import sequence, text
+from keras.models import load_model
 
 data = pd.read_csv('data/train.csv', sep=',')
 y = data.is_duplicate.values
@@ -76,10 +77,8 @@ merged_model.add(Dense(1))
 merged_model.add(Activation('sigmoid'))
 
 merged_model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
-#checkpoint = ModelCheckpoint('weights.h5', monitor='val_acc', save_best_only=True, verbose=2)
-merged_model.fit([x1, x2], y=y, batch_size=384,epochs=1,
+merged_model.fit([x1, x2], y=y, batch_size=384,epochs=7,
                  verbose=1, validation_split=0.1, shuffle=True)
-
-
+merged_model.save('final_model.h5')
 scores = merged_model.evaluate([x1, x2],y)
 print("\n%s: %.2f%%" % (merged_model.metrics_names[1], scores[1]*100))
