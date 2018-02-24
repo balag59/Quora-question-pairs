@@ -1,5 +1,7 @@
 # Quora-deep-learning
 
+A stacked deep learning model based on sequence modelling with layers of LSTMs & GRUs to classify whether pairs of questions on Quora are duplicate or unique
+
 # Dependencies:
 
 Tensorflow:
