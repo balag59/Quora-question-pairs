@@ -26,21 +26,8 @@ Install : http://pandas.pydata.org/pandas-docs/stable/install.html
 
 Note:Install all dependencies for python3
 
-# Download sample test data:
 
-https://drive.google.com/open?id=0B2tYxoaqA_gwZTRYdDJhb29rWGM
+# Programs:
 
-
-# Instructions to run:
-
-Install all dependencies
-
-Place the test file in the data path:
-
-Download the sample test data file 'test.csv' and place it in the data path.
-
-OR
-
-If you are using your input file for testing, place it in the data path
-
-Run with 'python3 predict.py'
+Use quora_model to train the model.
+Use quora_inference to perform inference using the trained model.
